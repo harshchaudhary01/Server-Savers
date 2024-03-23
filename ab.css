@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Playpen Sans';
+    background-color: black;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+h2{
+    margin-top: 25px;
+    font-size: 55px;
+    text-align: center;
+    background: linear-gradient(to right, #f32170,#ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Gugi';
+}
+#content{
+    display: flex;
+}
+.img{
+    height: 370px;
+    border-radius: 15px;
+    margin: 55px 25px 5px 5px;
+}
+.para{
+    margin: 75px 5px 5px 5px ;
+    font-size: 21px;
+}
+.img:hover{
+    transform-box: 32px;
+}
